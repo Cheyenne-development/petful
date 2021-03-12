@@ -1,0 +1,59 @@
+.adopt-dog {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dog-info {
+  flex-grow: 2;
+}
+
+.dog-info img {
+  border-radius: 5%;
+  width: 70%;
+}
+
+.people-info {
+  flex-grow: 1;
+  margin-right: 7%;
+  margin-top: 10%;
+}
+
+.people-info h2 {
+  color: rgb(112, 27, 27);
+  font-weight: bold;
+  font-size: 2em;
+  font-family: "Serif";
+}
+
+.people-info h3 {
+  color: #4d728a;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: "Serif";
+}
+.adopt-button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border-radius: 10%;
+  background-color: #334B5B
+}
+
+.people-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border-radius: 10%;
+  background-color: #334B5B
+}
+
+.people-list ul {
+  list-style-type: none;
+}

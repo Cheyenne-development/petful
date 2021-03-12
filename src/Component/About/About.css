@@ -1,0 +1,47 @@
+.about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: stretch;
+}
+
+.about-left img {
+  padding: 2%;
+  width: 96%;
+  border-radius: 5%;
+  flex: 1;
+}
+
+.about-right {
+  flex: 1;
+  margin: 20px
+}
+
+.about-right h2 {
+  font-family: "Barrio";
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(77 114 138);
+  border-bottom: 5px solid rgb(77 114 138);
+  
+}
+
+.about-right p {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+flex-direction: row;
+  }
+  .about-left {
+     width: 50%
+  }
+  .about-right {
+    margin-left: 10px;
+  }
+}
